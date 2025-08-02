@@ -1576,8 +1576,14 @@ code{
 .video-meida img {
     opacity: 0.5;
 }
-.st-color{
-    background-image: url(../images/box.png);
+/*
+ * Removed the box.png background image from the `.st-color` class because
+ * the original asset wasn’t provided. This avoids a module-not-found
+ * error during the Next.js build. If you wish to restore the box graphic,
+ * place the image in `styles/images/box.png` and re-enable this rule.
+ */
+.st-color {
+    /* background-image: url(../images/box.png); */
     background-position: right -10px bottom -10px;
     background-size: 60px;
     background-repeat: no-repeat;

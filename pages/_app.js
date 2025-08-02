@@ -6,7 +6,6 @@ import '../styles/globals.css';
 // the public directory at runtime, so we create a `vendor` folder in
 // `public/css` and import them here.
 import '../styles/vendor/bootstrap.min.css';
-import '../styles/vendor/font-awesome.css';
 import '../styles/vendor/perfect-scrollbar.css';
 import '../styles/vendor/style.css';
 

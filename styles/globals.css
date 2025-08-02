@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Global styles
+
+  This file pulls in Tailwind's layers and defines a handful of global
+  utility classes and resets. Feel free to extend this file with your
+  project‑wide styles, such as custom fonts loaded via @font-face or
+  CSS variables. Avoid adding large blocks of component-specific CSS here;
+  instead use Tailwind utility classes directly in your components.
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-neutral-dark bg-white;
+}
+
+a {
+  @apply text-primary hover:text-primary-dark transition-colors;
+}

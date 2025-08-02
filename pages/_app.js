@@ -1,4 +1,13 @@
+// Global styles
 import '../styles/globals.css';
+// Import vendor styles from the provided template. These are copied into
+// the public/css directory and provide the sleek look and feel from the
+// original design. Note that Next.js does not allow importing CSS from
+// the public directory at runtime, so we create a `vendor` folder in
+// `public/css` and import them here.
+import '../styles/vendor/bootstrap.min.css';
+import '../styles/vendor/perfect-scrollbar.css';
+import '../styles/vendor/style.css';
 
 /**
  * Custom App component

@@ -30,10 +30,19 @@ export default function Contact() {
             to learn more about what we do, fill out the form below and one of
             our team members will reach out.
           </p>
+          {/*
+           * Contact form
+           *
+           * We intentionally omit the `data-netlify` attribute here because the
+           * Netlify Next.js runtime v5 requires a static HTML form for
+           * detection. To enable Netlify Forms, create a static form in
+           * `public/__forms.html` matching this form’s fields. If you don’t
+           * need Netlify’s built‑in form handling, leaving off the attribute
+           * prevents build errors.
+           */}
           <form
             name="contact"
             method="POST"
-            data-netlify="true"
             className="bg-white rounded-lg shadow p-8 grid gap-6"
           >
             <input type="hidden" name="form-name" value="contact" />
